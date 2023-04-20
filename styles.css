@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+html {
+    font-size: 62.5%;
+  }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+button{
+    background-color: white;
+}
+label{
+    width: 15rem;
+    display: inline-block;
+}
+
+/* HEADER (Nav-Bar) */
+
+header nav{
+    display: flex;
+    min-height: 10vh;
+    font-size: 1.8rem;
+}
+
+header ul{
+    display: flex;
+    flex: 2 1 10rem;
+   
+    justify-content: center;
+    align-items: center;
+    list-style: none;    
+    flex-wrap: wrap;
+}
+header ul li{
+    margin: 2.2rem;
+    font-size: 2.1rem;
+}
+
+header ul li:hover{
+    text-decoration: white underline;
+
+    
+}
+
+#main-logo{
+    flex: 1 1 10rem;
+    height: 7rem;
+    width: 22rem;
+    margin-left: 4rem;
+    border-radius: 1rem ;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 5px 3px rgb(73, 87, 212);
+}
+
+#Login-button{
+    font: black;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: 0px 0px 5px 3px rgb(73, 87, 212);
+}
+
+#Login-button:hover{
+    box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
+    background-color: rgba(73,87,212,0.8);
+    text-decoration: white;
+    color: white;
+    cursor: pointer;
+}
+
+/* HOME PAGE */
+
+.home{
+    min-height: 70vh;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#Home{
+    background-image: url("./Images & logos/Homepage.jpg");
+    background-size: cover;
+}
+
+#Booknow-button{
+    margin: 4rem;
+    padding: 1.5rem 4rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0px 0px 5px 3px rgb(73, 87, 212);
+
+}
+
+#Booknow-button:hover{
+    box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
+    background-color: rgba(73,87,212,0.8);
+    text-decoration: white;
+    color: white;
+    cursor: pointer;
+}
+
+
+#Homepage-text h2{
+    color: white;
+    border-width: 0.5rem;
+    border-color: black;
+    text-shadow: 3px 3px 6px red;
+}
+
+#Homepage-text h3{
+    color: white;
+    border-width: 0.5rem;
+    border-color: black;
+}
+
+#Homepage-text p{
+    margin: 2rem;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 4px 4px 5px black;
+    border-width: 0.5rem;
+}
+
+
+/* TRAVEL SECTION */
+
+#travel-section-div{
+    min-height: 100vh;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;   
+    margin-top: 3rem;
+}
+#Images{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.img{
+    height: 30rem;
+    width: 50rem;
+    margin: 2rem;
+    box-shadow: 2rem 2rem 3rem;
+}
+
+
+#Images{
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    
+}
+
+
+#travel-section-div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: large;
+    text-decoration: underline;
+    text-shadow: 3px 3px 6px rgb(63, 61, 61);    
+}
+
+#travel-section-div a{
+    color: black;
+}
+
+/* SERVICES SECTION */
+
+#Services-div{
+    background-image: url("./Images & logos/Grey Background.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+#Services-head{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.benefits-head {
+    background: #343c44;
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .benefits-head h3 {
+    padding: 1rem;
+  }
+  
+  .cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 60vh;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5), 0px 20px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cards img {
+    max-width: 15%;
+    margin: 2rem;
+  }
+  .card h4,
+  .card p {
+    padding: 1rem;
+    line-height: 2.8;
+    font-size: large;
+    text-decoration: underline;
+    
+  }
+
+  .card h4{
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  
+  .card-icon {
+    background: #2c68ac;
+  }
+  
+
+
+/* BOOKING SECTION */
+.background-div{
+    background-image: url("./Images & logos/Booking Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.booking-div{
+    background-color:rgba(255, 248, 248, 0.51);
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+}
+
+#Register-Button{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding: 1.2rem 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0px 2px 5px 3px rgb(53, 53, 54);
+    background-color: white ;
+    color: black;
+
+}
+
+#Register-Button:hover{
+    background-color: #2c68ac;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);   
+}
+
+.location-input{
+    background-color: white;
+}
+
+.form-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.booking-form{
+      
+        font-size: 2rem;
+    border:rgb(255, 255, 255) 2px;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    max-width: 50rem;
+    display: inline-block;
+    
+    
+}
+.booking-form input, #location-select{
+border: none;
+background-color: white;
+padding: 1.5rem;
+border-radius: 2rem;
+box-shadow: 2px 2px 8px black;
+align-items: center;
+text-align: center;
+
+}
+
+
+
+/* CONTACT SECTION */
+.form-head{
+    
+    
+    color: white;
+    padding-top: 1.5rem;
+    text-shadow: 4px 4px 6px black;
+}
+
+.form-wrapper{
+    
+    text-align: center;
+    justify-content:center ;
+    align-items: center;
+    background-image: url("./Images & logos/Screenshot_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+
+.name-form{
+        
+        font-size: 2rem;
+        border:black 2px;
+        padding: 1rem;
+        color: white;
+        text-shadow: 4px 4px 6px black;
+        
+        
+}
+.name-form input{
+    border: none;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 8px black;
+
+}
+
+#Submit-Button{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding: 1.2rem 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0px 2px 5px 3px rgb(53, 53, 54);
+    background-color: white ;
+    color: black;
+
+}
+
+#Submit-Button:hover{
+    background-color: #2c68ac;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);   
+}
+
+
+
+
+/* Footer Section */
+  
+footer {
+    color: white;
+    background: #2c68ac;
+  }
+  .footer-wrapper {
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+  }
+  footer h5 {
+    flex: 1 1 40rem;
+  }
+  footer ul {
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #footer-name{font-size: 3rem;}
+
+
+
+  @media screen and (max-width:1150px) {
+    
+
+    header ul li{
+        margin: 2rem;
+        font-size: 2rem;
+    }
+    #Login-button{
+        margin-top: 2.3rem;
+        padding: 1.2rem;
+    }
+    #Booknow-button{
+        margin-top: 2.3rem;
+        padding: 1.2rem;
+        font-size: 1.8rem;
+
+    }
+    #main-logo{
+        margin-top: 1.5rem;
+        height: 7rem;
+        width: 22rem;
+        margin-left: 4rem;
+        border-radius: 1rem ;
+    }
+    
+    h2{
+        font-size: 3.5rem;
+    }
+
+    h3{
+        font-size: 1.8rem;
+    }
+
+    .img{
+        height: 20rem;
+        width: 40rem;
+        margin: 1.5rem;
+        
+    }
+
+
+  }
+  @media screen and (max-width: 980px) {
+    header ul li{
+        margin: 1.5rem 2rem 0rem 2rem ;
+        font-size: 2rem;
+    }
+
+    #main-logo{
+        margin-top: 1.5rem;
+        height: 8rem;
+        width: 25rem;
+        margin-left: 4rem;
+        border-radius: 1rem ;
+    }
+
+  }
+
+
+
+  

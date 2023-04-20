@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="refresh" content="20">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This website is linked to a platform that is related to booking of different places, flights, restraunts, hotels and many more inter">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./Images & logos/airplane.svg">
+    <title>Book-It | Reservation Website  </title>
+</head>
+
+
+<body>
+
+<!-- HOME SECTION -->
+
+<div id="Home">
+    <header>
+        <nav>
+            <a href=""><img id="main-logo" src="./Images & logos/logo.png"></a>
+            
+            
+            <ul class="nav-links">
+              <li><a href=""><u> Home </u> </a></li>  
+              <li><a href="">Flights</a></li>
+                <li><a href="">Hotels</a></li>
+                <li><a href="">Transport</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <a href="./LoginPage.html"><button id="Login-button">Register/Login</button></a>
+          </nav>
+
+    </header>
+
+    <section class="home">
+            <div id="Homepage-text">
+            <h2>Travel Beyond Limits.</h2>
+            <p><b> Start planning your trip at an affordable price. </b> <br> Choose one of the best places to visit in vacations and Explore In your country as well as in different countries of World.</p>
+          </div>
+             <a  href="#booking-section"><button id="Booknow-button" >Book Now!</button></a>
+    </section>
+</div>
+
+ <!-- TRAVEL SECTION -->
+
+<section class="travel">
+  <div id="travel-section-div">
+        
+        <h2 id="location-head">Locations</h2>
+        <div id="Images">
+          
+            <div class="Islamabad">
+              <h3>Islamabad</h3>
+              <img class="img" src="./Images & logos/Islamabad.jpg">
+            </div>
+            <div class="Rawalpindi">
+              <h3>Rawalpindi</h3>
+              <img class="img" src="./Images & logos/Rawalpindi.jpg">
+            </div>
+            <div class="Lahore">
+              <h3>Lahore</h3>
+              <img class="img" src="./Images & logos/lahore.jpg">
+            </div>
+            <div class="Karachi">
+              <h3>Karachi</h3>
+              <img class="img" src="./Images & logos/Karachi.png">
+            </div>
+            <div class="Murree">
+              <h3>Murree</h3>
+              <img class="img" src="./Images & logos/Murree.png">
+            </div>
+            <div class="NathiaGali">
+              <h3>NathiaGali</h3>
+              <img class="img" src="./Images & logos/Ayubia,_Pakistan.jpg">
+            </div>
+
+        </div>
+        <a href="#">Click here to explore more...</a>
+  </div>
+</section>
+
+<!-- SERVICES SECTION -->
+
+<div id="Services-div">
+    <h2 id="Services-head">    <br> Services</h2>
+    <div class="cards">
+        <div class="card">
+          <div class="card-icon">
+            <img src="./Images & logos/route-solid.svg" alt="" />
+          </div>
+          <h4>Travel</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed
+            deleniti modi ipsa blanditiis incidunt!
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="./Images & logos/bed-solid.svg" alt="" />
+          </div>
+          <h4>Hotel</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed
+            deleniti modi ipsa blanditiis incidunt!
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="./Images & logos/plane-departure-solid.svg" alt="" />
+          </div>
+          <h4>Fly</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed
+            deleniti modi ipsa blanditiis incidunt!
+          </p>
+        </div>
+        
+      </div>
+    
+</div>
+
+<!-- BOOKING SECTION  -->
+
+<section id="booking-section">
+  <div class="background-div">
+  <div class="booking-div">
+    <header class="booking-head">
+      <p><br><br><br></p>
+      <h2>Bookings</h2>
+    </header>
+    <form>
+     <div class="form-sec">>
+      <div class="booking-form">
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text" name="firstname" placeholder="i.e John" required minlength="2" />
+      </div>
+
+      <div class="booking-form">
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text" name="lastname" placeholder="i.e David" required minlength="4" />
+      </div>
+
+      <div class="booking-form">
+        <label for="phone">Phone Number:</label>
+        <input id="phone" type="text" name="phone" placeholder="Phone-number Here" required maxlength="13" />
+      </div>
+
+      <div class="booking-form">
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Your Email Here" required  />
+      </div>
+
+      <div class="booking-form">
+        <label for="date"> Date of Trip: </label>
+        <input type="date" name="date" id="date-input">
+      </div>
+
+      
+      <div class="booking-form">
+        <label for="time"> Time: </label>
+        <input type="time" name="time" id="time-input">
+      </div>
+
+      <div class="booking-form">
+        <label for="locations"> Select a Location: </label>
+        <select name="Locations" aria-placeholder="select" id="location-select">
+          <option value="Islamabad">Islamabad</option>
+          <option value="Rawalpindi">Rawalpindi</option>
+          <option value="Lahore">Lahore</option>
+          <option value="Karachi">Karachi</option>
+          <option value="Murree">Murree</option>
+          <option value="Nathiagali">Nathiagali</option>
+        </select>
+      </div>
+
+    </div>
+    </form>
+    <button id="Register-Button" type="submit">Register</button>
+  </div>
+</div>
+</section>
+
+<!-- CONTACT SECTION  -->
+
+    <section id="contact">
+      <div class="form-wrapper">
+        <header class="form-head">
+          <h2><br> Contact Us </h2>
+        </header>
+        <form action="" method="POST">
+          <div class="name-form">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder="i.e John" required minlength="4" />
+          </div>
+          <div class="name-form">
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Your Email Here" required name="_replyto" />
+          </div>
+          <button id="Submit-Button" value="Send" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+
+
+ <!-- FOOTER  -->
+
+<footer>
+    <div class="footer-wrapper">
+      <h5 id="footer-name">Book-It &copy;</h5>
+      <ul>
+        <li>
+          <a href="#" title="twitter-social-media">
+            <img src="./Images & logos/twitter.svg" alt="twitter-social-media"/>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="youtube-social-media">
+            <img src="./Images & logos/youtube.svg" alt="youtube-social-media"/>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="instagram-social-media">
+            <img src="./Images & logos/instagram.svg" alt="instagram-social-media"/></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <form >
+    <Label></Label>
+  </form>
+
+</body>
+</html>
+
+
+
+    
+      
+      
+  
+          
+        
